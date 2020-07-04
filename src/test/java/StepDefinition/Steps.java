@@ -18,7 +18,7 @@ public class Steps {
        	System.setProperty("webdriver.chrome.driver","C://CucumberSelenium/chromedriver.exe");
        	driver = new ChromeDriver();
        	driver.manage().window().maximize();
-       	driver.get("http://localhost:4200/ordenes");
+       	driver.get("http://localhost:4200/ordenesDespacho");
        	
        	driver.findElement(By.name("Nueva OrdenDespacho")).click();
     }		
